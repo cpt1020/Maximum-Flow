@@ -23,7 +23,7 @@ create:
 	@mkdir -p build
 
 build: $(CXX_OBJECTS)
-	@$(CXX_COMPILER_CALL) $(CXX_OBJECTS) -o $(EXECUTABLE_NAME)
+	$(CXX_COMPILER_CALL) $(CXX_OBJECTS) -o $(EXECUTABLE_NAME)
 
 execute:
 	./$(EXECUTABLE_NAME)
