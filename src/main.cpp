@@ -1,9 +1,9 @@
 #include <iostream>
-#include "src/Vertex.h"
-#include "src/VertexPtr.h"
-#include "src/BFS_queue.h"
-#include "src/graph.h"
-#include "src/Edmonds_Karp.h"
+#include "Vertex.h"
+#include "VertexPtr.h"
+#include "BFS_queue.h"
+#include "graph.h"
+#include "Edmonds_Karp.h"
 using namespace std;
 
 int main(){
